@@ -7,6 +7,7 @@ import Footer from "../components/Footer";
 import Service from "../components/Service";
 import Locations from "../components/Locations";
 import Testimonials from "../components/Testimonials";
+import Blog from "../components/Blog";
 import Offers from "../components/Offers";
 
 
@@ -26,6 +27,7 @@ const LandingPage = ({ theme, setTheme }) => {
       <Locations/>
       <Offers/>
       <Testimonials/>
+      <Blog/>
       <Footer/>
    
     </>

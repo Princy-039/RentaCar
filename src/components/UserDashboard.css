@@ -1,0 +1,99 @@
+html, body {
+  height: 100%;  /* Ensures the body and html take full height */
+  margin: 0;     /* Removes default margin */
+}
+
+.dashboard-container {
+ 
+  
+  min-height: 100%;  /* Ensures it covers the full viewport height */
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  background-position: center;
+  background-size: 1688*470;
+  animation: backgroundChange 6s infinite;
+  height: 100%;   /* Ensures the container grows to the full height */
+}
+
+@keyframes backgroundChange {
+  0% {
+    background-image: url('https://images.pexels.com/photos/210019/pexels-photo-210019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  }
+  33% {
+    background-image: url('https://images.pexels.com/photos/1210622/pexels-photo-1210622.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  }
+  66% {
+    background-image: url('https://images.pexels.com/photos/72581/pexels-photo-72581.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  }
+  100% {
+    background-image: url('https://images.pexels.com/photos/164654/pexels-photo-164654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  }
+}
+
+.dashboard-block {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 12px;
+  height: 300px;
+  text-decoration: black;
+  border: 2px solid #ffcc00;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  background-color:rgba(255, 255, 255, 0.816);
+}
+
+.dashboard-block h4, .dashboard-block p {
+  color: black;
+}
+
+.dashboard-block .btn {
+  color: black;
+}
+
+.dashboard-block:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.whatsapp-button:hover {
+  background: #128c7e;
+  transform: scale(1.1);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Attractive button style */
+.btn-lg {
+  margin-top: 100px;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background: #fbbd04;
+  border-color: #fbbd04;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-lg:hover {
+  background: #f9a825;
+  border-color: #f9a825;
+  transform: scale(1.1);
+}

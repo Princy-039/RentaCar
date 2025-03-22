@@ -82,7 +82,7 @@ const Navbar = () => {
             </li>
 
             {/* Remaining Menu Items */}
-            {["Offers","Blog", "Contact Us"].map((section, index) => (
+            {["Offers","Blog","Testimonials", "Contact Us"].map((section, index) => (
               <li key={index} className="nav-item">
                 <Link className="nav-link text-light fw-medium" to={`/${section.toLowerCase()}`}>
                   {section}

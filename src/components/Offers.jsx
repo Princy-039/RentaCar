@@ -7,42 +7,36 @@ const SpecialOffers = () => {
       title: "RIDE YOUR WAY WITH OUR APP",
       description: "Enjoy exclusive discounts when you book via our app.",
       image: "https://images.pexels.com/photos/97075/pexels-photo-97075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      coupon: "APP10",
       discount: "10% OFF",
     },
     {
       title: "Valentine's Day Special",
       description: "Celebrate love with a special discount on luxury rides.",
       image: "https://images.pexels.com/photos/20192809/pexels-photo-20192809/free-photo-of-ceramic-car-valentines-decoration.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      coupon: "LOVE14",
       discount: "14% OFF",
     },
     {
       title: "Weekend Getaway Deals",
       description: "Plan a perfect trip with our weekend special discounts.",
       image: "https://images.pexels.com/photos/9050677/pexels-photo-9050677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      coupon: "WEEKEND15",
       discount: "15% OFF",
     },
     {
       title: "Summer Road Trip Sale",
       description: "Get ready for summer adventures with great savings.",
       image: "https://images.pexels.com/photos/378570/pexels-photo-378570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      coupon: "SUMMER20",
       discount: "20% OFF",
     },
     {
       title: "Exclusive Members Offer",
       description: "Loyal customers get extra rewards & discounts.",
       image: "https://images.pexels.com/photos/5816297/pexels-photo-5816297.jpeg?auto=compress&cs=tinysrgb&w=600",
-      coupon: "MEMBER25",
       discount: "25% OFF",
     },
     {
       title: "Festival Season Deals",
       description: "Celebrate every festival with an amazing ride discount.",
       image: "https://images.pexels.com/photos/30519793/pexels-photo-30519793/free-photo-of-vibrant-night-at-the-holiday-market.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      coupon: "FEST30",
       discount: "30% OFF",
     },
   ];
@@ -107,7 +101,6 @@ const SpecialOffers = () => {
               <div className="card-body text-center">
                 <h5 className="card-title fw-bold">{offer.title}</h5>
                 <p className="card-text text-muted">{offer.description}</p>
-                <p className="fw-bold text-success">Use Code: {offer.coupon}</p>
                 <p className="fw-bold text-danger">{offer.discount}</p>
                 <a href="#" className="btn shadow-sm" style={{ backgroundColor: "#808000", color: "white", border: "none" }}>
                   Grab Offer

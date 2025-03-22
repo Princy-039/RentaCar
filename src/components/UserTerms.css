@@ -1,0 +1,39 @@
+.terms-wrapper {
+  padding: 40px;
+  background-image: url('/public/qdrive.png'); /* Replace with the actual image path */
+  
+  background-position: center; /* Ensures the image is centered */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+.terms-title{
+  text-align: center;
+}
+.last-updated{
+  text-align: center;
+}
+.section-title{
+  font-size: x-large;
+  text-decoration: yellow;
+}
+
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25d366;
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.whatsapp-icon:hover {
+  background: #128c7e;
+  transform: scale(1.1);
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+}

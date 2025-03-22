@@ -25,7 +25,7 @@ const Hero = () => {
               Seamless Car Rentals, Anytime, Anywhere.
             </p>
             {/* Link to Booking Page */}
-            <Link to="/book">
+            <Link to="/login">
               <button className="btn btn-warning btn-lg shadow-sm" style={{ fontFamily: "'Poppins', sans-serif" }}>
                 Book Now
               </button>

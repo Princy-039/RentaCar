@@ -44,7 +44,7 @@ const Footer = () => {
           </div>
           <div className="col-md-8">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.755228726726!2d76.326655314793!3d9.981635392864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080c6d0b0b0b0b%3A0x0!2sQDrive%20Rent%20a%20Car!5e0!3m2!1sen!2sin!4v1610000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1008111.2155836523!2d75.9839694!3d9.2501563!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080dae4949c931%3A0xa1617c10f509b6ab!2sQDrive%20(Self%20Drive%20Rent%20a%20Car)!5e0!3m2!1sen!2sin!4v1739259593820!5m2!1sen!2sin"
               width="100%"
               height="200"
               style={{ border: 0 }}
